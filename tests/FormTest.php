@@ -246,7 +246,7 @@ class FormTest extends FormerTests
 			'tag'        => 'input',
 			'attributes' => array(
 				'type'  => 'hidden',
-				'name'  => '_method',
+				'name'  => '_METHOD',
 				'value' => $method,
 			),
 		), $form);
