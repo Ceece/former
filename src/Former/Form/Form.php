@@ -190,7 +190,7 @@ class Form extends FormerObject
 	 */
 	public function action($action)
 	{
-		$this->action = $action ? $this->url->to($action, array(), $this->secure) : null;
+		$this->action = $action;
 
 		return $this;
 	}
